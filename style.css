@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: transparent;
+}
+
+/* Section 1 */
+.section1 {
+    width: 100%;
+    padding: 30px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #57407c;
+}
+
+.sec1-p1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sec1-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sec1-btns button {
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    color: rgb(75, 75, 75);
+    background-color: rgb(226, 226, 226);
+}
+
+.sec1-btns button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.puzzle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6ac6b8;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 7px;
+}
+
+.tile:active {
+    background-color: #e88a45;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 32px;
+    background-color: rgb(178, 157, 90);
+}
+
+footer p {
+    font-size: 18px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer p span {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
