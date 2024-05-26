@@ -11,7 +11,7 @@
 /* Section 1 */
 .section1 {
     width: 100%;
-    padding: 30px 0px 100px 0px;
+    padding: 30px 5px 130px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,8 +57,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     padding: 5px;
 }
 
